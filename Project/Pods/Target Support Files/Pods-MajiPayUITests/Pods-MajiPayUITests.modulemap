@@ -1,0 +1,6 @@
+framework module Pods_MajiPayUITests {
+  umbrella header "Pods-MajiPayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

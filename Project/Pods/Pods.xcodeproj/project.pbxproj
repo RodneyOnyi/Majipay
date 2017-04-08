@@ -1,0 +1,1204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901768B7D478434892A55FF50FC331E /* Timeline.swift */; };
+		174F9793CB196FFFB7BE59ACE9BB4F20 /* Pods-MajiPayUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C9090EF8DDF1AB29C9E43ECC31D235 /* Pods-MajiPayUITests-dummy.m */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B49B77417157C4D2BED377D9D683DE /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E58C7A0B6EA7812AE1B69DF5A6A5DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A49F7D2D44FD2CF4CC6677AC88E83 /* TaskDelegate.swift */; };
+		4AE2AB2637D4EBD83BEF36BA2AD14624 /* Pods-MajiPayTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7552E1B61B57C4A0DB4A1618F9B5512 /* Pods-MajiPayTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C35CB07A157324AE877E4F4005E11E4 /* RappleActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DCDCFC3789A5066B95863D451E23FC /* RappleActivityIndicatorView.swift */; };
+		4F2E4A5ABC05BAA7C4B2B1EDE6876ABD /* RappleAIUIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B242291D7D3ED27CF6E02992383B65 /* RappleAIUIs.swift */; };
+		51CE36524DEE16908DE60480D1B74D25 /* Pods-MajiPayUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C230D0B3CC232D31728863CA81C500A2 /* Pods-MajiPayUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3880439CF120BF36FE60F28E342B78 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED40324673DE5C3623446CB6EE76DE0 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C50A4ACFA180E48F645377C7E216DC /* ServerTrustPolicy.swift */; };
+		69B42644D38B9913B09329BD453C0F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7441DF2DEE8EC14A00E5B5778241B4C7 /* Pods-MajiPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6A8498F35B120FEBA80140C37BCED /* Pods-MajiPay-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F3E75C367E3707A3885670B354A89D /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0CEF8E46E6757F3A316BAE18EAED0 /* Result.swift */; };
+		8005BA5453C276704E616AF7235C3511 /* RappleProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B28DE44466D1EDB1C1D777BB31258612 /* RappleProgressHUD-dummy.m */; };
+		8A70DDAABA771113E92EE771DBC4C3E6 /* RappleProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AF591BFE59CE4F5EE416991A0AE424 /* RappleProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97831E50840AF3EA51074056294F1E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE6B17EAB09A2F145D0AEA8196D9F53 /* AFError.swift */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E043A2E69C80C2C339BF838EB37AC4 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A014B7DDA305AFC621D233AE01848DE /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E91DB343C5527CA6F241032464735 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350510DDA383EEEE33EC96D391D5F89B /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB4DB5B0083EB96FEC1022EF466ECF /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388641918C8631D886625408BDD1261B /* ParameterEncoding.swift */; };
+		C23FB95200C645E69BD1FEA94D1D51D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C243AD421392DC45DB07EA556CFD9D6B /* RappleAIPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53AD6169311885DC90475621F5BB16A /* RappleAIPrivate.swift */; };
+		C67AD227A549354FB0790A4C3B8F7664 /* Pods-MajiPayTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA05F975D8722670D51293F2153E7B48 /* Pods-MajiPayTests-dummy.m */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007800116136D7A9B81F7459AB29C762 /* Response.swift */; };
+		D29F430109A80FB2EE7BDCAB11052BCA /* Pods-MajiPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5E70CA09FE243A85EF94D9A7C63DBC /* Pods-MajiPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BD93DCB2098D5A1688AA7E0CBCC9D /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90122E63C367D7BE5A96521F0CCBCD7 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D21AD06E4107F0FEDDEF0CB64ACBCB /* Alamofire.swift */; };
+		FA3C182EA963BEA36DA7D0C60E1B1633 /* RappleAIAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C0B74EFFD2AA5D723E622DBCF8E46E /* RappleAIAction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		985CDD032E427097D1D3125E03F6F927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81847FF9CD2669044FC63968D73D05D;
+			remoteInfo = RappleProgressHUD;
+		};
+		EE058698D27B2D41213EEAA847206227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007800116136D7A9B81F7459AB29C762 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		019959E8788514FE99AE246CA13CBB07 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		06896C85984A3C4CE2F382D57172322C /* Pods-MajiPayUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MajiPayUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		085BD93DCB2098D5A1688AA7E0CBCC9D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		087CE58F22AE343D4FAA508C112F22AF /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		0EEE4AB944EB8891AFA675868CA6EFD2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE6B17EAB09A2F145D0AEA8196D9F53 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		10861DFEE7836F12D63FB83D0D145129 /* RappleProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		21027E2A54F93F6BAB2FE4E9FB1905C5 /* Pods-MajiPay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MajiPay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2419DF770639A81D0984D72BEE2584AE /* Pods-MajiPay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajiPay-frameworks.sh"; sourceTree = "<group>"; };
+		350510DDA383EEEE33EC96D391D5F89B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3753DB8457143062016D300661FD14E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388641918C8631D886625408BDD1261B /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		39C50A4ACFA180E48F645377C7E216DC /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3A47E8136B8C07B64869CE25FBFD2FA8 /* Pods-MajiPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajiPay.release.xcconfig"; sourceTree = "<group>"; };
+		3DB069FD4F6F7E993536E00DA11B7329 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3F0A49F7D2D44FD2CF4CC6677AC88E83 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		4428D335CE19FBBA3B9C124A4DA270DA /* Pods-MajiPayUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajiPayUITests-resources.sh"; sourceTree = "<group>"; };
+		44AD7E29B20D4E1F69017EFBBE5AC96A /* Pods-MajiPayTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MajiPayTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BD0CEF8E46E6757F3A316BAE18EAED0 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		4CD48722C2C080FA1BB344141F9DF5BC /* Pods-MajiPay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajiPay-resources.sh"; sourceTree = "<group>"; };
+		50C9090EF8DDF1AB29C9E43ECC31D235 /* Pods-MajiPayUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MajiPayUITests-dummy.m"; sourceTree = "<group>"; };
+		51C265600C1F979B366821693AFD3246 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D1C389A4EE15DD36C543F42E6A1899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F22242E4A96370DD0FD0829B17F81F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		570E5C61DE048ED077A27F917880EF07 /* Pods-MajiPayTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MajiPayTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AEE5B23DD73221374D0E025712D1A67 /* RappleProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleProgressHUD.xcconfig; sourceTree = "<group>"; };
+		606A20B939FECCCB3ABDE77D688808D7 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		662DC94666D5E1A3F9611098E564F75D /* Pods-MajiPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajiPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69E97A77A9358AF49492F93EE64D1B68 /* Pods-MajiPayUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MajiPayUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72B49B77417157C4D2BED377D9D683DE /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		73AA9ECA516D0A0320F2C87C660ABA84 /* Pods_MajiPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MajiPay.framework; path = "Pods-MajiPay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D21AD06E4107F0FEDDEF0CB64ACBCB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		770C57D5E473863C27DB0E6A4C49D13D /* Pods-MajiPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MajiPay.modulemap"; sourceTree = "<group>"; };
+		776114CEBF5507AA274463F320BF193D /* Pods-MajiPayTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MajiPayTests.modulemap"; sourceTree = "<group>"; };
+		798764CF3DD90AEDED0F082B8C60C99D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DA0DB70F4254FAA52CCB38FC444388 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		877FD1626C48032ABEAB63F5012C67D5 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		89CB4DB5B0083EB96FEC1022EF466ECF /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		8A61CB09864CB5601399BF672E5A150A /* Pods_MajiPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MajiPayUITests.framework; path = "Pods-MajiPayUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921493EE000B8BBA1A6E1DE10F0AEEDA /* Pods-MajiPayUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MajiPayUITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957613B20D493EA8097D93039715891B /* Pods-MajiPayTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajiPayTests-frameworks.sh"; sourceTree = "<group>"; };
+		9901768B7D478434892A55FF50FC331E /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		99F3E75C367E3707A3885670B354A89D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		9A014B7DDA305AFC621D233AE01848DE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		9B702DE4D560DA0C9953D721AF875FBA /* Pods-MajiPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajiPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E91EC15B0C432DEA864B76CEA3360F2 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		A2AF591BFE59CE4F5EE416991A0AE424 /* RappleProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		A5F7B84EF191E29E2212D76356F2BF82 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		A6B242291D7D3ED27CF6E02992383B65 /* RappleAIUIs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIUIs.swift; path = Pod/Classes/RappleAIUIs.swift; sourceTree = "<group>"; };
+		A859E23BEF4AB5A3014ED7FFAD9893A4 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		AA4D3531E9FBF7E7396F0A0A1737D89F /* Pods-MajiPayTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajiPayTests-resources.sh"; sourceTree = "<group>"; };
+		AD3880439CF120BF36FE60F28E342B78 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		AD7AF1878C5188CF586E5E764795AE11 /* RappleProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RappleProgressHUD.framework; path = RappleProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE22BB8FC5EECE391A88DAD39DEA0D54 /* RappleProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RappleProgressHUD.modulemap; sourceTree = "<group>"; };
+		B0E043A2E69C80C2C339BF838EB37AC4 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B28DE44466D1EDB1C1D777BB31258612 /* RappleProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RappleProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B5A7D8925CF65BE6ADBF0F7BA4B53264 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		B5C0FD6C415DFFE3E9ABE2B15F50C190 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4C5898B0F7DDD179E4B74DD60B0077 /* Pods-MajiPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajiPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C0B74EFFD2AA5D723E622DBCF8E46E /* RappleAIAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIAction.swift; path = Pod/Classes/RappleAIAction.swift; sourceTree = "<group>"; };
+		C230D0B3CC232D31728863CA81C500A2 /* Pods-MajiPayUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MajiPayUITests-umbrella.h"; sourceTree = "<group>"; };
+		C53AD6169311885DC90475621F5BB16A /* RappleAIPrivate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIPrivate.swift; path = Pod/Classes/RappleAIPrivate.swift; sourceTree = "<group>"; };
+		C9DCDCFC3789A5066B95863D451E23FC /* RappleActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleActivityIndicatorView.swift; path = Pod/Classes/RappleActivityIndicatorView.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5ACC46BEDB2001F7C9BCABB8EAFF4FB /* Pods-MajiPayUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MajiPayUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D80B4FA0A5F19B749718461B292E3051 /* Pods_MajiPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MajiPayTests.framework; path = "Pods-MajiPayTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AC3649AFBCA24AB7DC202502B2765D /* Pods-MajiPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajiPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9C6A8498F35B120FEBA80140C37BCED /* Pods-MajiPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MajiPay-dummy.m"; sourceTree = "<group>"; };
+		DED40324673DE5C3623446CB6EE76DE0 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		DF3E91DB343C5527CA6F241032464735 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		E45942390197C00AC0A5D8F7DE6731ED /* Pods-MajiPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MajiPay.debug.xcconfig"; sourceTree = "<group>"; };
+		E90122E63C367D7BE5A96521F0CCBCD7 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		EA05F975D8722670D51293F2153E7B48 /* Pods-MajiPayTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MajiPayTests-dummy.m"; sourceTree = "<group>"; };
+		EC5E70CA09FE243A85EF94D9A7C63DBC /* Pods-MajiPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MajiPay-umbrella.h"; sourceTree = "<group>"; };
+		F6DD0CBDFE78EAE8D8916F7CD1C20513 /* Pods-MajiPay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MajiPay-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7552E1B61B57C4A0DB4A1618F9B5512 /* Pods-MajiPayTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MajiPayTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB266D34FB9268EB7EFE53CA42246A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E58C7A0B6EA7812AE1B69DF5A6A5DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFF8E819E111D60DB0F8EAB20B1DFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97831E50840AF3EA51074056294F1E65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC8112FBC6A257E8ED223D94D96585B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B42644D38B9913B09329BD453C0F7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2CDE7F960E3679DD918184A538E7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23FB95200C645E69BD1FEA94D1D51D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D6EBE48495E279B49B44CDE28F2C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877FD1626C48032ABEAB63F5012C67D5 /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		073DF287470B6231AD0D9343317034D9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C80A738748FD7E2BA8B9168D1EBD7974 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0ABF8C287FAA9F5B3C985EB804B7443F /* Pods-MajiPay */ = {
+			isa = PBXGroup;
+			children = (
+				798764CF3DD90AEDED0F082B8C60C99D /* Info.plist */,
+				770C57D5E473863C27DB0E6A4C49D13D /* Pods-MajiPay.modulemap */,
+				21027E2A54F93F6BAB2FE4E9FB1905C5 /* Pods-MajiPay-acknowledgements.markdown */,
+				F6DD0CBDFE78EAE8D8916F7CD1C20513 /* Pods-MajiPay-acknowledgements.plist */,
+				D9C6A8498F35B120FEBA80140C37BCED /* Pods-MajiPay-dummy.m */,
+				2419DF770639A81D0984D72BEE2584AE /* Pods-MajiPay-frameworks.sh */,
+				4CD48722C2C080FA1BB344141F9DF5BC /* Pods-MajiPay-resources.sh */,
+				EC5E70CA09FE243A85EF94D9A7C63DBC /* Pods-MajiPay-umbrella.h */,
+				E45942390197C00AC0A5D8F7DE6731ED /* Pods-MajiPay.debug.xcconfig */,
+				3A47E8136B8C07B64869CE25FBFD2FA8 /* Pods-MajiPay.release.xcconfig */,
+			);
+			name = "Pods-MajiPay";
+			path = "Target Support Files/Pods-MajiPay";
+			sourceTree = "<group>";
+		};
+		0B0601F3B2676FC2C643C5311D3FF6CC /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				02D6EBE48495E279B49B44CDE28F2C16 /* Frameworks */,
+				1B4D947AC53E4733E29E181C376A6EB0 /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		1B4D947AC53E4733E29E181C376A6EB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A7D8925CF65BE6ADBF0F7BA4B53264 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		258EB3BCAD01E9A9CD470F58BB6F4D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F7B84EF191E29E2212D76356F2BF82 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AD698A131CC7A0581F2F437472F4C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEE4AB944EB8891AFA675868CA6EFD2 /* Alamofire.framework */,
+				73AA9ECA516D0A0320F2C87C660ABA84 /* Pods_MajiPay.framework */,
+				D80B4FA0A5F19B749718461B292E3051 /* Pods_MajiPayTests.framework */,
+				8A61CB09864CB5601399BF672E5A150A /* Pods_MajiPayUITests.framework */,
+				AD7AF1878C5188CF586E5E764795AE11 /* RappleProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AF34FD5FD3131B41F661C8A2FD127D0 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				073DF287470B6231AD0D9343317034D9 /* Base */,
+				B24705459E8287C9104C73544FA14DEC /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2B8544C5C2DF76D2AE66CAE7E1D81567 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0FE6B17EAB09A2F145D0AEA8196D9F53 /* AFError.swift */,
+				76D21AD06E4107F0FEDDEF0CB64ACBCB /* Alamofire.swift */,
+				DED40324673DE5C3623446CB6EE76DE0 /* DispatchQueue+Alamofire.swift */,
+				350510DDA383EEEE33EC96D391D5F89B /* MultipartFormData.swift */,
+				B0E043A2E69C80C2C339BF838EB37AC4 /* NetworkReachabilityManager.swift */,
+				085BD93DCB2098D5A1688AA7E0CBCC9D /* Notifications.swift */,
+				388641918C8631D886625408BDD1261B /* ParameterEncoding.swift */,
+				AD3880439CF120BF36FE60F28E342B78 /* Request.swift */,
+				007800116136D7A9B81F7459AB29C762 /* Response.swift */,
+				E90122E63C367D7BE5A96521F0CCBCD7 /* ResponseSerialization.swift */,
+				4BD0CEF8E46E6757F3A316BAE18EAED0 /* Result.swift */,
+				39C50A4ACFA180E48F645377C7E216DC /* ServerTrustPolicy.swift */,
+				99F3E75C367E3707A3885670B354A89D /* SessionDelegate.swift */,
+				DF3E91DB343C5527CA6F241032464735 /* SessionManager.swift */,
+				3F0A49F7D2D44FD2CF4CC6677AC88E83 /* TaskDelegate.swift */,
+				9901768B7D478434892A55FF50FC331E /* Timeline.swift */,
+				89CB4DB5B0083EB96FEC1022EF466ECF /* Validation.swift */,
+				38E3EBD571D612C0BE00811EDEA7BD0B /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		38E3EBD571D612C0BE00811EDEA7BD0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F22242E4A96370DD0FD0829B17F81F /* Alamofire.modulemap */,
+				9E91EC15B0C432DEA864B76CEA3360F2 /* Alamofire.xcconfig */,
+				9A014B7DDA305AFC621D233AE01848DE /* Alamofire-dummy.m */,
+				3DB069FD4F6F7E993536E00DA11B7329 /* Alamofire-prefix.pch */,
+				72B49B77417157C4D2BED377D9D683DE /* Alamofire-umbrella.h */,
+				51D1C389A4EE15DD36C543F42E6A1899 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		3F60157854A229AE0FE6E0AEFA6EA46F /* Pods-MajiPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				51C265600C1F979B366821693AFD3246 /* Info.plist */,
+				776114CEBF5507AA274463F320BF193D /* Pods-MajiPayTests.modulemap */,
+				44AD7E29B20D4E1F69017EFBBE5AC96A /* Pods-MajiPayTests-acknowledgements.markdown */,
+				570E5C61DE048ED077A27F917880EF07 /* Pods-MajiPayTests-acknowledgements.plist */,
+				EA05F975D8722670D51293F2153E7B48 /* Pods-MajiPayTests-dummy.m */,
+				957613B20D493EA8097D93039715891B /* Pods-MajiPayTests-frameworks.sh */,
+				AA4D3531E9FBF7E7396F0A0A1737D89F /* Pods-MajiPayTests-resources.sh */,
+				F7552E1B61B57C4A0DB4A1618F9B5512 /* Pods-MajiPayTests-umbrella.h */,
+				9B702DE4D560DA0C9953D721AF875FBA /* Pods-MajiPayTests.debug.xcconfig */,
+				D8AC3649AFBCA24AB7DC202502B2765D /* Pods-MajiPayTests.release.xcconfig */,
+			);
+			name = "Pods-MajiPayTests";
+			path = "Target Support Files/Pods-MajiPayTests";
+			sourceTree = "<group>";
+		};
+		57D6EE5E5266650E9D5E0DE8C8EAA484 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABF8C287FAA9F5B3C985EB804B7443F /* Pods-MajiPay */,
+				3F60157854A229AE0FE6E0AEFA6EA46F /* Pods-MajiPayTests */,
+				AD60F8BC4976638E458C51092734AE14 /* Pods-MajiPayUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F7ABBCB5D063433162221C13B5338E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				019959E8788514FE99AE246CA13CBB07 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D7C0B149F518A2211879DEF797E841F6 /* Pods */,
+				2AD698A131CC7A0581F2F437472F4C73 /* Products */,
+				57D6EE5E5266650E9D5E0DE8C8EAA484 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87C9E7A418AE158CE505BA743AC00487 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				258EB3BCAD01E9A9CD470F58BB6F4D01 /* Frameworks */,
+				DB422AA9B67E6958D157DCDA5DBE417A /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		AD60F8BC4976638E458C51092734AE14 /* Pods-MajiPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C0FD6C415DFFE3E9ABE2B15F50C190 /* Info.plist */,
+				921493EE000B8BBA1A6E1DE10F0AEEDA /* Pods-MajiPayUITests.modulemap */,
+				69E97A77A9358AF49492F93EE64D1B68 /* Pods-MajiPayUITests-acknowledgements.markdown */,
+				06896C85984A3C4CE2F382D57172322C /* Pods-MajiPayUITests-acknowledgements.plist */,
+				50C9090EF8DDF1AB29C9E43ECC31D235 /* Pods-MajiPayUITests-dummy.m */,
+				D5ACC46BEDB2001F7C9BCABB8EAFF4FB /* Pods-MajiPayUITests-frameworks.sh */,
+				4428D335CE19FBBA3B9C124A4DA270DA /* Pods-MajiPayUITests-resources.sh */,
+				C230D0B3CC232D31728863CA81C500A2 /* Pods-MajiPayUITests-umbrella.h */,
+				BD4C5898B0F7DDD179E4B74DD60B0077 /* Pods-MajiPayUITests.debug.xcconfig */,
+				662DC94666D5E1A3F9611098E564F75D /* Pods-MajiPayUITests.release.xcconfig */,
+			);
+			name = "Pods-MajiPayUITests";
+			path = "Target Support Files/Pods-MajiPayUITests";
+			sourceTree = "<group>";
+		};
+		B24705459E8287C9104C73544FA14DEC /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BECDCE5D63375BFD950D46A338D611B2 /* Frameworks */,
+				5F7ABBCB5D063433162221C13B5338E0 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA13708CE2CB38AA02F76CDE580FCE8 /* RappleProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C9DCDCFC3789A5066B95863D451E23FC /* RappleActivityIndicatorView.swift */,
+				C1C0B74EFFD2AA5D723E622DBCF8E46E /* RappleAIAction.swift */,
+				C53AD6169311885DC90475621F5BB16A /* RappleAIPrivate.swift */,
+				A6B242291D7D3ED27CF6E02992383B65 /* RappleAIUIs.swift */,
+				DD9C48D707C0FD3934A70846A0BB36FB /* Support Files */,
+			);
+			name = RappleProgressHUD;
+			path = RappleProgressHUD;
+			sourceTree = "<group>";
+		};
+		BECDCE5D63375BFD950D46A338D611B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80DA0DB70F4254FAA52CCB38FC444388 /* GoogleMaps.framework */,
+				A859E23BEF4AB5A3014ED7FFAD9893A4 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80A738748FD7E2BA8B9168D1EBD7974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606A20B939FECCCB3ABDE77D688808D7 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7C0B149F518A2211879DEF797E841F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B8544C5C2DF76D2AE66CAE7E1D81567 /* Alamofire */,
+				2AF34FD5FD3131B41F661C8A2FD127D0 /* GoogleMaps */,
+				0B0601F3B2676FC2C643C5311D3FF6CC /* GooglePlacePicker */,
+				87C9E7A418AE158CE505BA743AC00487 /* GooglePlaces */,
+				BEA13708CE2CB38AA02F76CDE580FCE8 /* RappleProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB422AA9B67E6958D157DCDA5DBE417A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				087CE58F22AE343D4FAA508C112F22AF /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD9C48D707C0FD3934A70846A0BB36FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3753DB8457143062016D300661FD14E2 /* Info.plist */,
+				AE22BB8FC5EECE391A88DAD39DEA0D54 /* RappleProgressHUD.modulemap */,
+				5AEE5B23DD73221374D0E025712D1A67 /* RappleProgressHUD.xcconfig */,
+				B28DE44466D1EDB1C1D777BB31258612 /* RappleProgressHUD-dummy.m */,
+				10861DFEE7836F12D63FB83D0D145129 /* RappleProgressHUD-prefix.pch */,
+				A2AF591BFE59CE4F5EE416991A0AE424 /* RappleProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RappleProgressHUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CE2F1E15A940519915DB178F880BC01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29F430109A80FB2EE7BDCAB11052BCA /* Pods-MajiPay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C0DFDD42AB73810CE6606F0C6F69CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CE36524DEE16908DE60480D1B74D25 /* Pods-MajiPayUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938A03FC112B8614366476444E66B378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE2AB2637D4EBD83BEF36BA2AD14624 /* Pods-MajiPayTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC055123752020B3E3D2F25D4A8B714 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A70DDAABA771113E92EE771DBC4C3E6 /* RappleProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A824A6E380DC41A63DBCB5AB56987FD /* Pods-MajiPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824D87567DEEED0B56D57C622899F3C1 /* Build configuration list for PBXNativeTarget "Pods-MajiPayUITests" */;
+			buildPhases = (
+				62EE5E338CF222DC0DF4D41CC4609263 /* Sources */,
+				8AB266D34FB9268EB7EFE53CA42246A9 /* Frameworks */,
+				55C0DFDD42AB73810CE6606F0C6F69CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MajiPayUITests";
+			productName = "Pods-MajiPayUITests";
+			productReference = 8A61CB09864CB5601399BF672E5A150A /* Pods_MajiPayUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57D0803F6112BF6E1E247645E0D52828 /* Pods-MajiPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4494535AF596F734501811C3456FBA2 /* Build configuration list for PBXNativeTarget "Pods-MajiPay" */;
+			buildPhases = (
+				B78B5644E6E35F74DB71073A72074746 /* Sources */,
+				9EFF8E819E111D60DB0F8EAB20B1DFD5 /* Frameworks */,
+				4CE2F1E15A940519915DB178F880BC01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154FA8857DEE88E9FA2FAAE16F0F61C2 /* PBXTargetDependency */,
+				FDEB15BEC802FA6699BCD18AEF0D7005 /* PBXTargetDependency */,
+			);
+			name = "Pods-MajiPay";
+			productName = "Pods-MajiPay";
+			productReference = 73AA9ECA516D0A0320F2C87C660ABA84 /* Pods_MajiPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 0EEE4AB944EB8891AFA675868CA6EFD2 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D81847FF9CD2669044FC63968D73D05D /* RappleProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F342E297527E002F68163F1AE21542 /* Build configuration list for PBXNativeTarget "RappleProgressHUD" */;
+			buildPhases = (
+				695B02C6CA16938C558896D7C7ECB220 /* Sources */,
+				FC2CDE7F960E3679DD918184A538E7A9 /* Frameworks */,
+				ECC055123752020B3E3D2F25D4A8B714 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappleProgressHUD;
+			productName = RappleProgressHUD;
+			productReference = AD7AF1878C5188CF586E5E764795AE11 /* RappleProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3557690C3749AB397C7F1D5B3EA548A /* Pods-MajiPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1016D38D2D8BCAB073C4C10C4B1840B /* Build configuration list for PBXNativeTarget "Pods-MajiPayTests" */;
+			buildPhases = (
+				095147474E1E70B357A6DF2BB738241E /* Sources */,
+				DDC8112FBC6A257E8ED223D94D96585B /* Frameworks */,
+				938A03FC112B8614366476444E66B378 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MajiPayTests";
+			productName = "Pods-MajiPayTests";
+			productReference = D80B4FA0A5F19B749718461B292E3051 /* Pods_MajiPayTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2AD698A131CC7A0581F2F437472F4C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				57D0803F6112BF6E1E247645E0D52828 /* Pods-MajiPay */,
+				E3557690C3749AB397C7F1D5B3EA548A /* Pods-MajiPayTests */,
+				4A824A6E380DC41A63DBCB5AB56987FD /* Pods-MajiPayUITests */,
+				D81847FF9CD2669044FC63968D73D05D /* RappleProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095147474E1E70B357A6DF2BB738241E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67AD227A549354FB0790A4C3B8F7664 /* Pods-MajiPayTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EE5E338CF222DC0DF4D41CC4609263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174F9793CB196FFFB7BE59ACE9BB4F20 /* Pods-MajiPayUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B02C6CA16938C558896D7C7ECB220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C35CB07A157324AE877E4F4005E11E4 /* RappleActivityIndicatorView.swift in Sources */,
+				FA3C182EA963BEA36DA7D0C60E1B1633 /* RappleAIAction.swift in Sources */,
+				C243AD421392DC45DB07EA556CFD9D6B /* RappleAIPrivate.swift in Sources */,
+				4F2E4A5ABC05BAA7C4B2B1EDE6876ABD /* RappleAIUIs.swift in Sources */,
+				8005BA5453C276704E616AF7235C3511 /* RappleProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B5644E6E35F74DB71073A72074746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7441DF2DEE8EC14A00E5B5778241B4C7 /* Pods-MajiPay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154FA8857DEE88E9FA2FAAE16F0F61C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = EE058698D27B2D41213EEAA847206227 /* PBXContainerItemProxy */;
+		};
+		FDEB15BEC802FA6699BCD18AEF0D7005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RappleProgressHUD;
+			target = D81847FF9CD2669044FC63968D73D05D /* RappleProgressHUD */;
+			targetProxy = 985CDD032E427097D1D3125E03F6F927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E91EC15B0C432DEA864B76CEA3360F2 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ED6C1ADAE3E86C98CC70A2A42AF686C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45942390197C00AC0A5D8F7DE6731ED /* Pods-MajiPay.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MajiPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MajiPay/Pods-MajiPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MajiPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		125FDA6707D76C4D6F9C1F89F1B7BB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEE5B23DD73221374D0E025712D1A67 /* RappleProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RappleProgressHUD/RappleProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RappleProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		275FD48A6F785BBB85C77BB44BFB02E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4C5898B0F7DDD179E4B74DD60B0077 /* Pods-MajiPayUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MajiPayUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MajiPayUITests/Pods-MajiPayUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MajiPayUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D2E72256B8C6E7FC510C60D99FAE633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A47E8136B8C07B64869CE25FBFD2FA8 /* Pods-MajiPay.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MajiPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MajiPay/Pods-MajiPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MajiPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		630C0BC2539C91F8E760808AF2F3B9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B702DE4D560DA0C9953D721AF875FBA /* Pods-MajiPayTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MajiPayTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MajiPayTests/Pods-MajiPayTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MajiPayTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9930B12DEFC46D7AC31AB5B5093B8D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AC3649AFBCA24AB7DC202502B2765D /* Pods-MajiPayTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MajiPayTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MajiPayTests/Pods-MajiPayTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MajiPayTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A32390CB9351EF0D97B8B4E3809A6008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662DC94666D5E1A3F9611098E564F75D /* Pods-MajiPayUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MajiPayUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MajiPayUITests/Pods-MajiPayUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MajiPayUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E04161CC96F7EDBF0CCE39DAE0484D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEE5B23DD73221374D0E025712D1A67 /* RappleProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RappleProgressHUD/RappleProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RappleProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E91EC15B0C432DEA864B76CEA3360F2 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383079BFBF927813EA3613CFB679FDE /* Debug */,
+				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824D87567DEEED0B56D57C622899F3C1 /* Build configuration list for PBXNativeTarget "Pods-MajiPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275FD48A6F785BBB85C77BB44BFB02E5 /* Debug */,
+				A32390CB9351EF0D97B8B4E3809A6008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4494535AF596F734501811C3456FBA2 /* Build configuration list for PBXNativeTarget "Pods-MajiPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED6C1ADAE3E86C98CC70A2A42AF686C /* Debug */,
+				3D2E72256B8C6E7FC510C60D99FAE633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F342E297527E002F68163F1AE21542 /* Build configuration list for PBXNativeTarget "RappleProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04161CC96F7EDBF0CCE39DAE0484D0B /* Debug */,
+				125FDA6707D76C4D6F9C1F89F1B7BB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1016D38D2D8BCAB073C4C10C4B1840B /* Build configuration list for PBXNativeTarget "Pods-MajiPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630C0BC2539C91F8E760808AF2F3B9AF /* Debug */,
+				9930B12DEFC46D7AC31AB5B5093B8D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

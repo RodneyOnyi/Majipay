@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8A7D17612FB9A5696A9659 /* Pods_MajiPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67818D146AC3B035CD5EBA88 /* Pods_MajiPayUITests.framework */; };
+		183AC2761E8E84BF00219BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2751E8E84BF00219BE2 /* AppDelegate.swift */; };
+		183AC2781E8E84BF00219BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2771E8E84BF00219BE2 /* ViewController.swift */; };
+		183AC27B1E8E84BF00219BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AC2791E8E84BF00219BE2 /* Main.storyboard */; };
+		183AC27E1E8E84C000219BE2 /* MajiPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183AC27C1E8E84C000219BE2 /* MajiPay.xcdatamodeld */; };
+		183AC2801E8E84C000219BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AC27F1E8E84C000219BE2 /* Assets.xcassets */; };
+		183AC2831E8E84C000219BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AC2811E8E84C000219BE2 /* LaunchScreen.storyboard */; };
+		183AC28E1E8E84C000219BE2 /* MajiPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC28D1E8E84C000219BE2 /* MajiPayTests.swift */; };
+		183AC2991E8E84C000219BE2 /* MajiPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2981E8E84C000219BE2 /* MajiPayUITests.swift */; };
+		183AC2A71E8E867000219BE2 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2A61E8E867000219BE2 /* SplashScreenViewController.swift */; };
+		183AC2A91E8E867B00219BE2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2A81E8E867B00219BE2 /* SignInViewController.swift */; };
+		183AC2AD1E8E869D00219BE2 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2AC1E8E869D00219BE2 /* LogoutViewController.swift */; };
+		183AC2AF1E8E904800219BE2 /* MeterUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2AE1E8E904800219BE2 /* MeterUpdateViewController.swift */; };
+		183AC2B21E8E917500219BE2 /* LoadingBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2B11E8E917500219BE2 /* LoadingBarViewController.swift */; };
+		183AC2B51E8E918600219BE2 /* checkconnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2B31E8E918600219BE2 /* checkconnection.swift */; };
+		183AC2B61E8E918600219BE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AC2B41E8E918600219BE2 /* Constants.swift */; };
+		B86D79DA3756DC8106D012B5 /* Pods_MajiPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3843A8EE097E0BF6F169AF01 /* Pods_MajiPayTests.framework */; };
+		F9F6FC90DB4B6C3F1E76D0F7 /* Pods_MajiPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F40E1E7EB3DA5860F4DD867 /* Pods_MajiPay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183AC28A1E8E84C000219BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183AC26A1E8E84BF00219BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183AC2711E8E84BF00219BE2;
+			remoteInfo = MajiPay;
+		};
+		183AC2951E8E84C000219BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183AC26A1E8E84BF00219BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183AC2711E8E84BF00219BE2;
+			remoteInfo = MajiPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183AC2721E8E84BF00219BE2 /* MajiPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MajiPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183AC2751E8E84BF00219BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		183AC2771E8E84BF00219BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		183AC27A1E8E84BF00219BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183AC27D1E8E84C000219BE2 /* MajiPay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MajiPay.xcdatamodel; sourceTree = "<group>"; };
+		183AC27F1E8E84C000219BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183AC2821E8E84C000219BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183AC2841E8E84C000219BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183AC2891E8E84C000219BE2 /* MajiPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajiPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183AC28D1E8E84C000219BE2 /* MajiPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajiPayTests.swift; sourceTree = "<group>"; };
+		183AC28F1E8E84C000219BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183AC2941E8E84C000219BE2 /* MajiPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajiPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183AC2981E8E84C000219BE2 /* MajiPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajiPayUITests.swift; sourceTree = "<group>"; };
+		183AC29A1E8E84C100219BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183AC2A61E8E867000219BE2 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		183AC2A81E8E867B00219BE2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		183AC2AC1E8E869D00219BE2 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		183AC2AE1E8E904800219BE2 /* MeterUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeterUpdateViewController.swift; sourceTree = "<group>"; };
+		183AC2B11E8E917500219BE2 /* LoadingBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBarViewController.swift; sourceTree = "<group>"; };
+		183AC2B31E8E918600219BE2 /* checkconnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkconnection.swift; sourceTree = "<group>"; };
+		183AC2B41E8E918600219BE2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		212A97B8BC0E7E4AD24E3779 /* Pods-MajiPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajiPayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MajiPayTests/Pods-MajiPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		29D39ABC1BA2C9B43DC423BA /* Pods-MajiPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajiPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MajiPay/Pods-MajiPay.debug.xcconfig"; sourceTree = "<group>"; };
+		3843A8EE097E0BF6F169AF01 /* Pods_MajiPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MajiPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67818D146AC3B035CD5EBA88 /* Pods_MajiPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MajiPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7404266388E38C693B0EF4C8 /* Pods-MajiPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajiPayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MajiPayUITests/Pods-MajiPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F40E1E7EB3DA5860F4DD867 /* Pods_MajiPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MajiPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A798E3B2032218E07F1E407F /* Pods-MajiPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajiPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-MajiPay/Pods-MajiPay.release.xcconfig"; sourceTree = "<group>"; };
+		B8492E56D60A003CC13F4671 /* Pods-MajiPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajiPayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MajiPayUITests/Pods-MajiPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBDB16804EEF11B5518C115E /* Pods-MajiPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MajiPayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MajiPayTests/Pods-MajiPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183AC26F1E8E84BF00219BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F6FC90DB4B6C3F1E76D0F7 /* Pods_MajiPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183AC2861E8E84C000219BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D79DA3756DC8106D012B5 /* Pods_MajiPayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183AC2911E8E84C000219BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8A7D17612FB9A5696A9659 /* Pods_MajiPayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183AC2691E8E84BF00219BE2 = {
+			isa = PBXGroup;
+			children = (
+				183AC2741E8E84BF00219BE2 /* MajiPay */,
+				183AC28C1E8E84C000219BE2 /* MajiPayTests */,
+				183AC2971E8E84C000219BE2 /* MajiPayUITests */,
+				183AC2731E8E84BF00219BE2 /* Products */,
+				5925BF9F2A4DAF4F28A4A7B2 /* Pods */,
+				FF4190D48C1AA47A619BD4F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		183AC2731E8E84BF00219BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183AC2721E8E84BF00219BE2 /* MajiPay.app */,
+				183AC2891E8E84C000219BE2 /* MajiPayTests.xctest */,
+				183AC2941E8E84C000219BE2 /* MajiPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183AC2741E8E84BF00219BE2 /* MajiPay */ = {
+			isa = PBXGroup;
+			children = (
+				183AC2B01E8E905E00219BE2 /* Utils */,
+				183AC2751E8E84BF00219BE2 /* AppDelegate.swift */,
+				183AC2771E8E84BF00219BE2 /* ViewController.swift */,
+				183AC2791E8E84BF00219BE2 /* Main.storyboard */,
+				183AC27F1E8E84C000219BE2 /* Assets.xcassets */,
+				183AC2811E8E84C000219BE2 /* LaunchScreen.storyboard */,
+				183AC2841E8E84C000219BE2 /* Info.plist */,
+				183AC27C1E8E84C000219BE2 /* MajiPay.xcdatamodeld */,
+				183AC2A61E8E867000219BE2 /* SplashScreenViewController.swift */,
+				183AC2A81E8E867B00219BE2 /* SignInViewController.swift */,
+				183AC2AC1E8E869D00219BE2 /* LogoutViewController.swift */,
+				183AC2AE1E8E904800219BE2 /* MeterUpdateViewController.swift */,
+			);
+			path = MajiPay;
+			sourceTree = "<group>";
+		};
+		183AC28C1E8E84C000219BE2 /* MajiPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				183AC28D1E8E84C000219BE2 /* MajiPayTests.swift */,
+				183AC28F1E8E84C000219BE2 /* Info.plist */,
+			);
+			path = MajiPayTests;
+			sourceTree = "<group>";
+		};
+		183AC2971E8E84C000219BE2 /* MajiPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183AC2981E8E84C000219BE2 /* MajiPayUITests.swift */,
+				183AC29A1E8E84C100219BE2 /* Info.plist */,
+			);
+			path = MajiPayUITests;
+			sourceTree = "<group>";
+		};
+		183AC2B01E8E905E00219BE2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				183AC2B31E8E918600219BE2 /* checkconnection.swift */,
+				183AC2B41E8E918600219BE2 /* Constants.swift */,
+				183AC2B11E8E917500219BE2 /* LoadingBarViewController.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5925BF9F2A4DAF4F28A4A7B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29D39ABC1BA2C9B43DC423BA /* Pods-MajiPay.debug.xcconfig */,
+				A798E3B2032218E07F1E407F /* Pods-MajiPay.release.xcconfig */,
+				EBDB16804EEF11B5518C115E /* Pods-MajiPayTests.debug.xcconfig */,
+				212A97B8BC0E7E4AD24E3779 /* Pods-MajiPayTests.release.xcconfig */,
+				7404266388E38C693B0EF4C8 /* Pods-MajiPayUITests.debug.xcconfig */,
+				B8492E56D60A003CC13F4671 /* Pods-MajiPayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF4190D48C1AA47A619BD4F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F40E1E7EB3DA5860F4DD867 /* Pods_MajiPay.framework */,
+				3843A8EE097E0BF6F169AF01 /* Pods_MajiPayTests.framework */,
+				67818D146AC3B035CD5EBA88 /* Pods_MajiPayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183AC2711E8E84BF00219BE2 /* MajiPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183AC29D1E8E84C100219BE2 /* Build configuration list for PBXNativeTarget "MajiPay" */;
+			buildPhases = (
+				545E8E6620B451BD0061988E /* [CP] Check Pods Manifest.lock */,
+				183AC26E1E8E84BF00219BE2 /* Sources */,
+				183AC26F1E8E84BF00219BE2 /* Frameworks */,
+				183AC2701E8E84BF00219BE2 /* Resources */,
+				61878B64B8571E0DCFB0A84A /* [CP] Embed Pods Frameworks */,
+				99BAEDEB53017A5212545F1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MajiPay;
+			productName = MajiPay;
+			productReference = 183AC2721E8E84BF00219BE2 /* MajiPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183AC2881E8E84C000219BE2 /* MajiPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183AC2A01E8E84C100219BE2 /* Build configuration list for PBXNativeTarget "MajiPayTests" */;
+			buildPhases = (
+				994626E8E04B039903E8F00D /* [CP] Check Pods Manifest.lock */,
+				183AC2851E8E84C000219BE2 /* Sources */,
+				183AC2861E8E84C000219BE2 /* Frameworks */,
+				183AC2871E8E84C000219BE2 /* Resources */,
+				8603633B0A53E30BD5A5097C /* [CP] Embed Pods Frameworks */,
+				A14EB634785927D9C231E01B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183AC28B1E8E84C000219BE2 /* PBXTargetDependency */,
+			);
+			name = MajiPayTests;
+			productName = MajiPayTests;
+			productReference = 183AC2891E8E84C000219BE2 /* MajiPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183AC2931E8E84C000219BE2 /* MajiPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183AC2A31E8E84C100219BE2 /* Build configuration list for PBXNativeTarget "MajiPayUITests" */;
+			buildPhases = (
+				544730336D551F2C61B7AE11 /* [CP] Check Pods Manifest.lock */,
+				183AC2901E8E84C000219BE2 /* Sources */,
+				183AC2911E8E84C000219BE2 /* Frameworks */,
+				183AC2921E8E84C000219BE2 /* Resources */,
+				048A3B978F433F945D9874DD /* [CP] Embed Pods Frameworks */,
+				37635B2C2E1823B972407E5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183AC2961E8E84C000219BE2 /* PBXTargetDependency */,
+			);
+			name = MajiPayUITests;
+			productName = MajiPayUITests;
+			productReference = 183AC2941E8E84C000219BE2 /* MajiPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183AC26A1E8E84BF00219BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Strathmore;
+				TargetAttributes = {
+					183AC2711E8E84BF00219BE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2VFXKQD36;
+						ProvisioningStyle = Automatic;
+					};
+					183AC2881E8E84C000219BE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2VFXKQD36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 183AC2711E8E84BF00219BE2;
+					};
+					183AC2931E8E84C000219BE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2VFXKQD36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 183AC2711E8E84BF00219BE2;
+					};
+				};
+			};
+			buildConfigurationList = 183AC26D1E8E84BF00219BE2 /* Build configuration list for PBXProject "MajiPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183AC2691E8E84BF00219BE2;
+			productRefGroup = 183AC2731E8E84BF00219BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183AC2711E8E84BF00219BE2 /* MajiPay */,
+				183AC2881E8E84C000219BE2 /* MajiPayTests */,
+				183AC2931E8E84C000219BE2 /* MajiPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183AC2701E8E84BF00219BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183AC2831E8E84C000219BE2 /* LaunchScreen.storyboard in Resources */,
+				183AC2801E8E84C000219BE2 /* Assets.xcassets in Resources */,
+				183AC27B1E8E84BF00219BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183AC2871E8E84C000219BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183AC2921E8E84C000219BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048A3B978F433F945D9874DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajiPayUITests/Pods-MajiPayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37635B2C2E1823B972407E5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajiPayUITests/Pods-MajiPayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544730336D551F2C61B7AE11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		545E8E6620B451BD0061988E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61878B64B8571E0DCFB0A84A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajiPay/Pods-MajiPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8603633B0A53E30BD5A5097C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajiPayTests/Pods-MajiPayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994626E8E04B039903E8F00D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99BAEDEB53017A5212545F1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajiPay/Pods-MajiPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A14EB634785927D9C231E01B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MajiPayTests/Pods-MajiPayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183AC26E1E8E84BF00219BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183AC27E1E8E84C000219BE2 /* MajiPay.xcdatamodeld in Sources */,
+				183AC2781E8E84BF00219BE2 /* ViewController.swift in Sources */,
+				183AC2AF1E8E904800219BE2 /* MeterUpdateViewController.swift in Sources */,
+				183AC2B21E8E917500219BE2 /* LoadingBarViewController.swift in Sources */,
+				183AC2A71E8E867000219BE2 /* SplashScreenViewController.swift in Sources */,
+				183AC2B61E8E918600219BE2 /* Constants.swift in Sources */,
+				183AC2AD1E8E869D00219BE2 /* LogoutViewController.swift in Sources */,
+				183AC2A91E8E867B00219BE2 /* SignInViewController.swift in Sources */,
+				183AC2B51E8E918600219BE2 /* checkconnection.swift in Sources */,
+				183AC2761E8E84BF00219BE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183AC2851E8E84C000219BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183AC28E1E8E84C000219BE2 /* MajiPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183AC2901E8E84C000219BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183AC2991E8E84C000219BE2 /* MajiPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183AC28B1E8E84C000219BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183AC2711E8E84BF00219BE2 /* MajiPay */;
+			targetProxy = 183AC28A1E8E84C000219BE2 /* PBXContainerItemProxy */;
+		};
+		183AC2961E8E84C000219BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183AC2711E8E84BF00219BE2 /* MajiPay */;
+			targetProxy = 183AC2951E8E84C000219BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183AC2791E8E84BF00219BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183AC27A1E8E84BF00219BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183AC2811E8E84C000219BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183AC2821E8E84C000219BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183AC29B1E8E84C100219BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183AC29C1E8E84C100219BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183AC29E1E8E84C100219BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D39ABC1BA2C9B43DC423BA /* Pods-MajiPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = MajiPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.MajiPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		183AC29F1E8E84C100219BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A798E3B2032218E07F1E407F /* Pods-MajiPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = MajiPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.MajiPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		183AC2A11E8E84C100219BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDB16804EEF11B5518C115E /* Pods-MajiPayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = MajiPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.MajiPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajiPay.app/MajiPay";
+			};
+			name = Debug;
+		};
+		183AC2A21E8E84C100219BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212A97B8BC0E7E4AD24E3779 /* Pods-MajiPayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = MajiPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.MajiPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajiPay.app/MajiPay";
+			};
+			name = Release;
+		};
+		183AC2A41E8E84C100219BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7404266388E38C693B0EF4C8 /* Pods-MajiPayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = MajiPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.MajiPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MajiPay;
+			};
+			name = Debug;
+		};
+		183AC2A51E8E84C100219BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8492E56D60A003CC13F4671 /* Pods-MajiPayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H2VFXKQD36;
+				INFOPLIST_FILE = MajiPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strathmore.MajiPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MajiPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183AC26D1E8E84BF00219BE2 /* Build configuration list for PBXProject "MajiPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183AC29B1E8E84C100219BE2 /* Debug */,
+				183AC29C1E8E84C100219BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183AC29D1E8E84C100219BE2 /* Build configuration list for PBXNativeTarget "MajiPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183AC29E1E8E84C100219BE2 /* Debug */,
+				183AC29F1E8E84C100219BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183AC2A01E8E84C100219BE2 /* Build configuration list for PBXNativeTarget "MajiPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183AC2A11E8E84C100219BE2 /* Debug */,
+				183AC2A21E8E84C100219BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183AC2A31E8E84C100219BE2 /* Build configuration list for PBXNativeTarget "MajiPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183AC2A41E8E84C100219BE2 /* Debug */,
+				183AC2A51E8E84C100219BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183AC27C1E8E84C000219BE2 /* MajiPay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183AC27D1E8E84C000219BE2 /* MajiPay.xcdatamodel */,
+			);
+			currentVersion = 183AC27D1E8E84C000219BE2 /* MajiPay.xcdatamodel */;
+			path = MajiPay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 183AC26A1E8E84BF00219BE2 /* Project object */;
+}
